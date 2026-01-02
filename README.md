@@ -32,7 +32,7 @@ Il permet également de tester rapidement des mots de passe via une interface en
 - Clonez le repository :
    ```bash
    cd Downloads
-   git clone https://github.com/ton-utilisateur/password-strength-checker.git
+   git clone https://github.com/Koverbook/password-strength-checker.git
    cd password-strenght-checker
    ```
 
