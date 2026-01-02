@@ -27,12 +27,13 @@ Il permet également de tester rapidement des mots de passe via une interface en
 
 ### Prérequis
 
-- Python 3.x
+- Python 3.x, git
 - Pip (gestionnaire de paquets Python)
 - Clonez le repository :
    ```bash
+   cd Downloads
    git clone https://github.com/ton-utilisateur/password-strength-checker.git
-   cd password-strength-checker pour plus d'informations.
+   cd password-strenght-checker
    ```
 
 ## Utilisation
