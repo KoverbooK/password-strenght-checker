@@ -54,7 +54,7 @@ def check(mdp) :
         score+=1
     elif corr > 0.7 :
         score-=1
-        err_mess+="-Pattern prévisible (Beta)\n"
+        err_mess+="-Pattern prévisible (Beta)"
 
     err_mess = "-Pas d'erreur trouvée\n" if err_mess == "" else err_mess
 
@@ -103,7 +103,7 @@ if __name__ == "__main__":
 
     elif args.secure_mode :
         mdp = getpass("Entrer le mot de passe en discrétion : ")
-        print(f" *\n* *\nScore pour {mdp} : {check(mdp)[0]} / 8")
+        print(f" *\n* *\nScore pour [secret-mode] : {check(mdp)[0]} / 8")
 
     else :
         print("--EXEMPLE--")
