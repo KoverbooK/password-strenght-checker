@@ -50,6 +50,11 @@ python strenghtCheck.py --secure-mode
 ```
 Le mot de passe est passé de manière masquée.
 
+* Conseils d'amélioration
+```bash
+python strenghtCheck.py --advice
+```
+
 * Tests par défaut
 ```bash
 python strenghtCheck.py
